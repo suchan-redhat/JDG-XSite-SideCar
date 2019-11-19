@@ -1,0 +1,3 @@
+TUNNA_URL=http://localhost:8081/http2tcp.php
+TUNNA_PORT=8600
+python /opt/tunna/proxy.py -u $TUNNA_URL -l $TUNNA_PORT
